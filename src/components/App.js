@@ -66,7 +66,8 @@ const App = () => {
                 type: "SEARCH_MOVIES_SUCCESS",
                 payload: jsonResponse.Search
           	});
-        	} else {
+          }
+          else {
           	dispatch({
                 type: "SEARCH_MOVIES_FAILURE",
                 error: jsonResponse.Error
@@ -85,11 +86,13 @@ const App = () => {
       <div className="movies">
         {loading && !errorMessage ? (
           <span>loading... </span>
-        ) : errorMessage ? (
+        )
+        : errorMessage ? (
           <div className="errorMessage">{ errorMessage }</div>
-        ) : (
+        )
+        : (
           movies.map((movie, index) => (
-            <Movie key={ `${ index }-${ movie.Title }`} movie={ movie } />
+            <Movie key={ `${ index }-${ movie.Title }` } movie={ movie } />
           ))
         )}
       </div>
