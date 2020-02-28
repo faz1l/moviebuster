@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/moviebuster/static/css/main.069965bb.chunk.css",
+    "main.js": "/moviebuster/static/js/main.271c7d0b.chunk.js",
+    "main.js.map": "/moviebuster/static/js/main.271c7d0b.chunk.js.map",
+    "runtime-main.js": "/moviebuster/static/js/runtime-main.d2503a61.js",
+    "runtime-main.js.map": "/moviebuster/static/js/runtime-main.d2503a61.js.map",
+    "static/js/2.77bb83dd.chunk.js": "/moviebuster/static/js/2.77bb83dd.chunk.js",
+    "static/js/2.77bb83dd.chunk.js.map": "/moviebuster/static/js/2.77bb83dd.chunk.js.map",
+    "index.html": "/moviebuster/index.html",
+    "precache-manifest.b1bd85e1600751a8fedbbd5b8d510141.js": "/moviebuster/precache-manifest.b1bd85e1600751a8fedbbd5b8d510141.js",
+    "service-worker.js": "/moviebuster/service-worker.js",
+    "static/css/main.069965bb.chunk.css.map": "/moviebuster/static/css/main.069965bb.chunk.css.map",
+    "static/js/2.77bb83dd.chunk.js.LICENSE.txt": "/moviebuster/static/js/2.77bb83dd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d2503a61.js",
+    "static/js/2.77bb83dd.chunk.js",
+    "static/css/main.069965bb.chunk.css",
+    "static/js/main.271c7d0b.chunk.js"
+  ]
+}
